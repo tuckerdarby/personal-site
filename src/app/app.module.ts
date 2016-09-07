@@ -5,17 +5,14 @@ import { AppComponent } from './app.component';
 import { appRoutingProviders, routing } from './app.routing';
 import { NavbarModule } from './shared';
 import { HomeModule } from './home/home.module';
-import { TodolistModule } from './todolist/todolist.module';
+
 
 @NgModule({
     declarations: [
         AppComponent
     ],
     imports: [
-        NavbarModule,
-        HomeModule,
-        TodolistModule,
-        routing
+        NavbarModule
     ],
     providers: [ APP_PROVIDERS, appRoutingProviders ],
     bootstrap: [ AppComponent ]

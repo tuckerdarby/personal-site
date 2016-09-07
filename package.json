@@ -1,12 +1,12 @@
 {
-  "name": "angular2-starter",
-  "version": "1.0.0-rc.5",
-  "author": "Antony Budianto",
-  "description": "Angular 2 Starter with extensible features",
+  "name": "tucker-darby-personal",
+  "version": "",
+  "author": "TD",
+  "description": "Personal website",
   "main": "src/tmp/app/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antonybudianto/angular2-starter.git"
+    "url": ""
   },
   "engines": {
     "node": ">=4.3",
@@ -24,22 +24,11 @@
     "coverage": "coveralls < ./report/remap/lcov.info"
   },
   "keywords": [
-    "angular2",
-    "starter",
-    "seed",
-    "gulp",
-    "webpack",
-    "extensible",
-    "systemjs",
-    "systemjs builder",
-    "travis",
-    "karma",
-    "jasmine",
-    "istanbul"
+
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antonybudianto/angular2-starter/issues"
+    "url": ""
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.5",
